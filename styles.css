@@ -1,0 +1,47 @@
+
+#board{
+    padding: 3em;
+    text-align: center;
+}
+
+.row{
+    height: 50px;
+    width: 302px;
+    clear: both;
+    margin: 0 auto; 
+}
+
+
+.row>div{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    float: left;
+}
+
+.vertical{
+    border-left-color: 1px solid black;
+}
+
+
+.top{
+    border-bottom: 1px black solid
+}
+
+.bottom{
+    border-top: 1px black solid
+}
+
+.left{
+    border-right: 1px black solid
+}
+
+.right{
+    border-left: 1px black solid
+}
+
+/* h1{
+    text-align: center;
+} */
+
+
